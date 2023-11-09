@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/12afdf0ad8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles7.css" />
+
+    <title>FAQ</title>
+  </head>
+  <body>
+    <h1>FAQs</h1>
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">1. How?</div>
+        <div class="faq-answer">
+          The website is designed such that all the data entered is backed up in
+          the form of an expense table. As long as the user logs in to his
+          account, he/she can view the expenses entered previously.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          2. Where can I check my individual expenses on the Financial Tracker?
+        </div>
+        <div class="faq-answer">
+          Once an expense is entered in the tracker, it gets automatically
+          stored in the expense table. It can further be edited or deleted as
+          per the user's request. This feature has been added to allow the user
+          to view and analyze all his daily expenses individually.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          3. Do I have link my bank account with the website??
+        </div>
+        <div class="faq-answer">
+          That won't be needed as we don't deal with online as well as physical
+          transactions. This website is solely for the purpose of tracking the
+          users' expenses to help them get an idea of their spendings and
+          savings which will enable them to get a better overview of how to
+          manage their budget.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">4. How secure is the Financial Tracker?</div>
+        <div class="faq-answer">
+          Financial Tracker is secure to use as each user has their own
+          credentials to log into their accounts that are authenticated.
+          Moreover, no bank information is needed to use Financial Tracker.
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          5. Does the expense table reset everyday?
+        </div>
+        <div class="faq-answer">
+          Financial Tracker is a record or history of all the user's previous
+          expenses. Hence, the previous day's data will not be erased. The
+          current data entered by the user will just be added to the table. This
+          allows the users to look back and scrutinize their expenses and work
+          on their savings.
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".faq-question").click(function () {
+          $(this).next(".faq-answer").slideToggle(300);
+          $(this).toggleClass("active");
+        });
+      });
+    </script>
+
+    <div class="text">
+      <h2>Ask a Question</h2>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">leave your question : </label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <button type="button" class="btn btn-success btn-lg">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

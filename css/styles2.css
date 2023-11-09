@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Abel&family=Chakra+Petch&family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: #d6d6d5;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #464e4a;
+    letter-spacing: 3px;
+
+}
+#v{
+    text-align: center;
+    color:#464e4a;
+    font-size:20px ;
+    line-height: 2px;
+    letter-spacing: 5px;
+}
+.pic{
+    width:80%;
+    height: auto;
+    margin-left: 9%;
+   position: relative;
+   margin-top:3%;
+   opacity: 80%;
+   
+}
+h3{
+    position: absolute;
+    text-align: center;
+    color:#d6d6d5;
+    top: 25%;
+    left: 14%;
+}
+.pic2{
+    margin: 7%;
+    position: relative;
+    opacity: 80%;
+
+}
+.pic1{
+    margin: 7%;
+    position: relative;
+    opacity: 80%;
+
+}
+.box{
+    background-color:#414948;
+    position: absolute;
+    color: #d6d6d5;
+    top: 46%;
+    left: 18%;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+.box1{
+    background-color: #414948;
+    position: absolute;
+    color: #d6d6d5;
+    top: 46%;
+    right: 22%;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+.box2{
+    background-color: #d6d6d5;
+    color:#414948;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    padding: 15px;
+    opacity: 75%;
+}
+.box3{
+    background-color: #d6d6d5;
+    color:#414948;
+    position: absolute;
+    top: 55%;
+    right: 14%;
+    padding: 15px;
+    opacity: 75%;
+       
+}
+.pic3{
+    width: 120%;
+    height: 80%;
+    
+    
+    position: relative;
+}
+h2{
+    position: absolute;
+    top: 105%;
+    left: 35%;
+    color: #d6d6d5;
+    letter-spacing: 5px;
+}
+#view{
+ position: absolute;
+ top: 120%;
+ left: 10%;
+ right: 10%;
+ color: #d6d6d5;
+ font-size: 25px;
+ letter-spacing: 3px;
+ word-spacing: 5px;
+}

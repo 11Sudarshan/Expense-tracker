@@ -1,0 +1,52 @@
+body{
+    background-color: #d6d6d5;
+}
+
+.pic{
+    position:relative;
+    width: 100%;
+    margin-top: 3%;
+
+   
+}
+
+h1 ,h2{
+    color: #d6d6d6;
+    
+}
+.head{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 50px;
+}
+.no{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.no1{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+.address{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+.address1{
+    position:absolute;
+    top: 58%;
+    left: 10%;
+}
+.mail{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}
+.mail1{
+    position: absolute;
+    top: 78%;
+    left: 10%;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Cormorant&family=Forum&family=Manrope&family=Tenor+Sans&display=swap');
+
+ .pic{
+    margin: 5% auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+h1{
+    color: #EEEEEE;
+    position: absolute;
+    font-family: orbitron, sans-serif;
+    bottom: 50%;
+    left: 15%;
+    
+}
+.btn{
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+}
+

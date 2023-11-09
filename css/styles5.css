@@ -1,0 +1,33 @@
+
+body{
+    background-color: #d6d6d5;
+}
+.view{
+    color:#414948;
+    margin: 3% 5% 2% 5%;
+}
+.form-group{
+    color:#414948;
+    margin-left: 10%;
+    margin-right: 7%;
+   
+}
+label{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 2%;
+}
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    
+    color: #414948;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel-item {
+    padding: 7% 15%;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: #d6d6d5;
+}
+.blog{
+    color: #414948;
+   margin-bottom: 3%;
+   margin-top: 3%;
+   margin-left: 45%;
+}
+.one{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    color: #c8c8c8;
+     
+}
+.two{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    color: #c8c8c8;
+     
+}
+.three{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    color: #c8c8c8;
+     
+}
+.four{
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    color: #c8c8c8;
+     
+}
+.five{
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    right: 10%;
+    font-size: 20px;
+    line-height: 35px;
+    word-spacing: 2px;
+    color: #c8c8c8;
+     
+}
+
+.pic{
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+   
+}
+.pic1{
+     width: 25%;
+     height: auto;
+     right: 2%;
+     position: absolute;
+}
+.pic2{
+    width: 25%;
+    height: auto;
+    top: 65%;
+    right: 2%;
+    position: absolute;
+
+}
+

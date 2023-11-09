@@ -1,0 +1,203 @@
+.pic{
+    width: 110%;
+    height: auto;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 5%;
+    padding: 5px;
+}
+.title{
+   margin-left: 70%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.nav-item{
+    padding-left: 5%;
+    
+}
+#features {
+    padding: 8% 10%;
+  }
+.feature-box {
+    text-align: center;
+    line-height: 25px;
+}
+.col1{
+    margin-left: 7%;
+}
+
+.dash{
+    position: absolute;
+    top: 65%;
+    
+}
+.cash{
+    position: absolute;
+    top: 95%;
+}
+.coin{
+    position: absolute;
+    top: 125%;
+}
+.income{
+    position: absolute;
+    top: 66%;
+    color:#ccc;
+    font-size: 35px;
+    left: 15%;
+}
+#income-amount{
+    position: absolute;
+    top: 74%;
+    color:#ccc;
+    font-size: 35px;
+    left: 15%;
+}
+.expense{
+    position: absolute;
+    top: 96%;
+    color:#ccc;
+    font-size: 35px;
+    left: 13%;
+}
+#expense-amount{
+    position: absolute;
+    top: 104%;
+    color:#ccc;
+    font-size: 35px;
+    left: 15%;
+}
+.balance{
+    position: absolute;
+    top: 126%;
+    color:#ccc;
+    font-size: 35px;
+    left: 10%;
+}
+#total-balance{
+    position: absolute;
+    top: 134%;
+    color:#ccc;
+    font-size: 35px;
+    left: 15%;
+}
+.pic1{
+    position: absolute;
+    top: 70%;
+    right: 9%;
+}
+.in{
+    position:absolute;
+    top: 78%;
+    right: 40%;
+    color: #ccc;
+}
+.enter{
+    position: absolute;
+    top: 88%;
+    right: 38%;
+    color: #ccc;
+    font-size: 25px;
+}
+.inc{
+    position: absolute;
+    top: 89%;
+    right: 23%;
+    background-color:#ccc;
+}
+#add-income-btn{
+    position:absolute;
+    top: 89%;
+    right: 18%;
+    background-color:#ccc;
+}
+.ex{
+    position:absolute;
+    top: 105%;
+    right: 40%;
+    color: #ccc;
+}
+.enter1{
+    position: absolute;
+    top: 115%;
+    right: 35%;
+    font-size: 25px;
+    color:#ccc;
+
+}
+
+#expense-desc{
+    position: absolute;
+    top: 116%;
+    right: 20%;
+    background-color:#ccc;
+}
+.enter2{
+    position: absolute;
+    top: 125%;
+    right: 38%;
+    color: #ccc;
+    font-size: 25px;
+}
+#expense-amt{
+    position:absolute;
+    top: 126%;
+    right: 23%;
+    background-color:#ccc;
+}
+#add-expense-btn{
+    position:absolute;
+    top: 126%;
+    right: 18%;
+    background-color:#ccc;
+}
+
+
+.expense-list{
+    position:absolute;
+    top: 150%;
+   margin-left: 20%;
+   margin-right: 20%;
+
+    
+}
+#expense-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  #expense-table th,
+  #expense-table td {
+   
+    text-align: center;
+    border: 2px solid #ddd;
+  }
+  
+  #expense-table th {
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-size: 25px;
+  }
+  
+  #expense-table td{
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .action-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-icons button {
+    margin: 0 4px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
